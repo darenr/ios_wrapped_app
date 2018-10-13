@@ -1,0 +1,92 @@
+{
+  "$jason": {
+    "head": {
+      "title": "example bootstrap app",
+      "description": "demo",
+      "offline": "yes"
+    },
+    "actions": {
+      "$foreground": {
+        "type": "$reload"
+      },
+      "$pull": {
+        "type": "$reload"
+      }
+    },
+    "header": {
+      "style": {
+        "theme": "light"
+      }
+    },
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/",
+        "action": {
+          "type": "$default"
+        }
+      },
+      "footer": {
+        "tabs": {
+          "style": {
+            "background": "rgba(255,255,255,0.8)",
+            "color:disabled": "#cecece",
+            "color": "#050505"
+          },
+          "items": [
+            {
+              "image": "",
+              "text": "home",
+              "href": {
+                "url": "https://www.jasonbase.com/things/wgRK.json",
+                "action": {
+                  "type": "$default"
+                }
+              }
+            },
+            {
+              "image": "",
+              "text": "B",
+              "href": {
+                "url": "https://www.jasonbase.com/things/wgRK.json",
+                "action": {
+                  "type": "$default"
+                }
+              }
+            },
+            {
+              "image": "",
+              "text": "C",
+              "href": {
+                "url": "https://www.jasonbase.com/things/wgRK.json",
+                "action": {
+                  "type": "$default"
+                }
+              }
+            },
+            {
+              "image": "",
+              "text": "D",
+              "href": {
+                "url": "https://www.jasonbase.com/things/R7me.json",
+                "action": {
+                  "type": "$default"
+                }
+              }
+            },
+            {
+              "image": "",
+              "text": "E",
+              "href": {
+                "url": "https://www.jasonbase.com/things/wgRK.json",
+                "action": {
+                  "type": "$default"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
